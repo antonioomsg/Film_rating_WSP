@@ -17,7 +17,7 @@ apiKey = os.getenv("ap_film")
 def drop_null(table,subset):
     table.dropna(subset=[f"{subset}"],inplace=True)
 
-df = pd.read_csv("Conpopularity1.csv")
+df = pd.read_csv("Data_Source/Conpopularity1.csv")
 
 def filtrapeliculas(genero,ano,num_dislp):
     filterinfDataframe = df[(df['genero'] == f"{genero}") & (df['año'] == ano) ].sort_values(by=['popularidad'],ascending=False).head(num_dislp)
