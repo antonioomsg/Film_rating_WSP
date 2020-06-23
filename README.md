@@ -25,6 +25,4 @@ La popularidad según nuestra api se basa en:
     - subprocess
     - webbrowser
 
-![Alt Text](~/Documents/proyects/Film_rating_WSP/popcorn.gif)
-![Alt Text](https://media.giphy.com/media/iDJuQR0UmiqOI/giphy.gif)
 ![Alt Text](https://github.com/antonioomsg/Film_rating_WSP/blob/master/popcorn.gif)
